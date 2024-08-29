@@ -1,0 +1,195 @@
+
+/* Mobile Devices */
+
+@media screen and (max-width: 576px) {
+/* Header */
+
+html , body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+
+}
+header{
+  background-size: 30px , 550px;
+  background-position: top 100px left 15px, bottom center;
+}
+
+  .navigation {
+    margin: 0px 30px;
+    padding: 20px 0;
+  }
+
+  .nav_bar {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    
+  }
+  
+  /* hero section */
+
+  .hero_section {
+    flex-direction: column;
+    margin: 30px 20px 20px;
+    gap: 40px;
+  }
+
+  .hero_text {
+    gap: 15px;
+    margin-left: 60px;
+  }
+
+  .hero_text h1 {
+    font-size: 35px;
+   
+  
+  }
+
+  .hero_text h3 {
+    font-size: 20px;
+    
+  }
+
+  .hero_text p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+   
+  .btn_container {
+    gap: 10px;
+    margin-top: 5px;
+  }
+  .hero_btn2 {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+
+  .hero_btn2 svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .btn_hero {
+    padding: 10px 15px;
+    font-size: 18px;
+
+  }
+
+  .btn_hero span {
+    display: none;
+  }
+
+  .hero_img img {
+    width: 80%;
+    margin-left: 80px;
+  }
+  
+  /* about section */
+
+  .about {
+   width: 90%;
+   margin-top: 50px;
+  }
+
+  .about-content {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    gap: 10px;
+    
+  }
+  .about-content .about-para {
+    font-size: 14px;
+    margin-bottom: 10px;
+  
+  }
+
+  .about-content h2 {
+    font-size: 20px;
+  }
+
+  .info-container p {
+    font-size: 13px;
+  }
+  
+  .info-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+
+
+  /* Skills Section */
+
+  .tech-skills {
+    max-width: 90%;
+    margin-top: 50px;
+  }
+  
+  .skil-text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  
+  }
+
+  
+.skil-text p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  flex-direction: column;
+  width: 70%;
+  margin: 40px auto;
+  gap: 30px;
+}
+
+.skill-boxs {
+  align-items: center;
+  text-align: center;
+}
+
+/* resume section */
+
+.resume-section {
+  width: 90%;
+  margin-top: 70px;
+}
+.resume-section h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #FFD9BD;
+ }
+
+ .resume-container {
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-btn {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+/* footer */
+
+.footer-container {
+  flex-direction: column-reverse;
+  gap: 50px;
+  width: 90%;
+  padding:50px 0px;
+}
+
+  
+}
